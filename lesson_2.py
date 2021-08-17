@@ -1,10 +1,10 @@
 # task 1
-'''arr1 = [2, 'f', True, 'false', 4.6]
+arr1 = [2, 'f', True, 'false', 4.6]
 for i in arr:
-    print(type(i))'''
+    print(type(i))
 
 # task 2
-'''arr2 = []
+arr2 = []
 while True:
     inp = input('введите число либо слово "end"')
     if inp == 'end':
@@ -19,10 +19,10 @@ while i < len(arr2):
         arr2[i] = arr2[i - 1]
         arr2[i - 1] = temp
     i += 1
-print(arr2)'''
+print(arr2)
 
 # task 3
-'''month = []
+month = []
 season = []
 while True:
     mon = input('введите номер месяца либо "0" для выхода')
@@ -44,10 +44,10 @@ while True:
         print("месяца с таким номером нет")
         continue
 print(month)
-print(season)'''
+print(season)
 
 # task 4
-'''str1 = input("введите строку из нескольких слов")
+str1 = input("введите строку из нескольких слов")
 j = 1
 str2 = str1.split(' ')
 for i in str2:
@@ -55,7 +55,7 @@ for i in str2:
         print(str(j) + "." + i[0:10])
         j += 1
     else:
-        continue'''
+        continue
 
 #task 5
 r = [9,7,7,4,2]
