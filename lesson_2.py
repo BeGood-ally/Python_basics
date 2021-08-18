@@ -1,5 +1,5 @@
 # task 1
-arr1 = [2, 'f', True, 'false', 4.6]
+'''arr1 = [2, 'f', True, 'false', 4.6]
 for i in arr:
     print(type(i))
 
@@ -19,10 +19,10 @@ while i < len(arr2):
         arr2[i] = arr2[i - 1]
         arr2[i - 1] = temp
     i += 1
-print(arr2)
+print(arr2)'''
 
-# task 3
-month = []
+# task 3 with list
+'''month = []
 season = []
 while True:
     mon = input('введите номер месяца либо "0" для выхода')
@@ -44,10 +44,32 @@ while True:
         print("месяца с таким номером нет")
         continue
 print(month)
-print(season)
+print(season)'''
+
+# task3 with dict
+'''month = ()
+season = {}
+while True:
+    mon = input('введите номер месяца либо "0" для выхода')
+    seas = ''
+    if (0 < int(mon) <= 2 or int(mon) == 12):
+       seas = 'зима'
+    elif (2 < int(mon) < 6):
+        seas = 'весна'
+    elif (6 <= int(mon) <= 8):
+        seas = 'лето'
+    elif (8 < int(mon) < 12):
+        seas = 'осень'
+    elif int(mon) == 0:
+        break
+    else:
+        print("месяца с таким номером нет")
+        continue
+    season.setdefault(mon, seas)
+print(season)'''
 
 # task 4
-str1 = input("введите строку из нескольких слов")
+'''str1 = input("введите строку из нескольких слов")
 j = 1
 str2 = str1.split(' ')
 for i in str2:
@@ -74,9 +96,9 @@ while True:
                 break
             elif int(new_dig) < r[-1]:
                 r.append(int(new_dig))
-                break
-            i += 1
-        print(r)
+                
+            i += 1break
+        print(r)'''
 
 
 
