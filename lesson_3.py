@@ -68,7 +68,7 @@ while True:
     print(arr_sum_all)'''
 
 # task 6
-def to_up_case(a):
+def int_func(a):
     for j in a:
         if (ord(j) < 97 or ord(j) > 122):
             print('слово должно быть только из прописных букв латинского алфавита')
@@ -85,13 +85,13 @@ def all_to_up_case(b):
         else:
             continue
     if delay == 0:
-        to_up_case(b)
+        int_func(b)
     elif delay > 0:
         arr_b = b.split()
         i = 0
         arr_b_new = []
         for ev_b in arr_b:
-            arr_b_new.append(to_up_case(ev_b))
+            arr_b_new.append(int_func(ev_b))
         final_str = ' '.join(arr_b_new)
         print(final_str)
 
